@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'firstProject';
+  data = "Hey i am data";
+  getValue() {
+    return "Get data Function";
+  }
+  num = 100;
 }
